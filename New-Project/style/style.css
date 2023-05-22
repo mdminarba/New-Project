@@ -12,14 +12,16 @@ body h1 h2 h3 h4 h5 h6 p{
     justify-content: space-around;
     color: #212121;
     width: 1440px;
-    height: auto;
     line-height: 50px;
     padding: 10px 0;
+   
     
 }
 .header-menu h3{
     font-weight: 400;
     font-size: 18px;
+    margin-right: 180px;
+    
     
 }
 .header-menu nav{
@@ -30,11 +32,14 @@ body h1 h2 h3 h4 h5 h6 p{
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #D4D9E3;
     padding: 11px 15px;
     border-radius: 10px;
+    border: none;
 
-
+}
+.header-menu nav button a{
+    text-decoration: none;
+    color: #D4D9E3;
 }
 .header-menu ul li{
     display: inline-block;
@@ -53,3 +58,70 @@ body h1 h2 h3 h4 h5 h6 p{
 
     
 }
+/*--------------------------------
+ service-item\
+ --------- --------------------*/
+ .about{
+    width: 655px;
+    height: 266px;
+    margin-left: 354;
+    display:inline;
+    text-align: center;
+ 
+    
+ }
+ .about button{
+    background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+    border: none;
+    padding: 14px 14px;
+    border-radius: 8px;
+    margin-left: 354px;
+
+ }
+ 
+ .about h1{
+    font-weight: 700 px;
+    font-size: 48px;
+    color: #3A4256;
+    width: 541px;
+    margin-left: 354px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 65px;
+
+    
+ }
+ .about p{
+    font-size: 16px;
+    font-weight: 400; 
+    margin-left: 354px;
+    width: 655px;
+    height: 44px;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 22px;
+  
+ }
+
+ .img {
+    background: url(/New-Project/chair.png.png);
+    background-size:cover ;
+    height: 355px;
+    width: 594px;
+    border-radius: 8px;
+    margin: auto;
+    
+
+ }
+
+ .lending-section{
+    background: url(/New-Project/Desktop.png) no-repeat center center;
+    width: 1363px;
+    height: 838px;;
+ }
